@@ -1,0 +1,259 @@
+.container {
+	width: 1280px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: rgb(68, 81, 97);
+}
+.header section {
+	color: white;	
+}
+
+.about_product {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(255, 255, 255);
+}
+.pluses_product {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: rgb(245, 245, 245);
+}
+.pluses_product h2 {
+  margin: 0 auto;
+}
+.pluses_product ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.pluses_product ul li {
+	width: 400px;
+}
+.scrinshots {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.scrinshots h2{
+	margin: 0 auto;
+}
+.scrinshots ul {
+	display: flex;
+	flex-wrap: wrap;
+	}
+.scrinshots ul li {
+	width: 600px;
+}
+.reviews {
+	width: 100%;
+	background-color: rgb(245, 245, 245);
+	float: left;
+	padding: 50px 18px 50px 18px;
+	box-sizing: border-box;
+}
+.buy_it_now {
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+.photo_bike {
+	width: 469px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(255, 255, 255);
+}
+.photo_bike img{
+	width: 100%;
+}
+.photo_bike figcaption{
+	width: 100%;
+	color: white;
+}
+.reviews_content {
+	
+	float: left;
+	width: 574px;
+	height: 121px;
+	margin: 0 60px 0 60px;
+	background-image: url(img/bg_review.png);
+	background-repeat: no-repeat;
+	background-position: 80px 10px;
+	background-size: 400px;
+	width: 483px;
+
+}
+.reviews h2,
+.buy_it_now h2 {
+	text-align: center;
+	margin-top: 0;
+}
+.reviews_content img {
+	width: 75px;
+	float: left;
+	border-radius: 36px;
+}
+
+.reviews_content p {
+	margin-left: 100px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.buy_it_now {
+	float: left;
+	box-sizing: border-box;
+	padding-right: 133px;
+	padding-left: 133px;
+	padding-top: 40px;
+}
+
+.standart,
+.premium,
+.lux {
+	width: 300px;
+	display: inline-block;
+	background-color: rgb(68, 81, 97);
+	color: white;
+	margin: 0 12px 0 12px;
+	vertical-align: bottom;
+	border: 3px solid rgb(68, 81, 97);
+	border-radius: 5px;
+	margin-bottom: 40px;
+
+}
+.standart span:nth-child(1),
+.premium span:nth-child(1),
+.lux span:nth-child(1) {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+.standart span:nth-child(2),
+.premium span:nth-child(2),
+.lux span:nth-child(2) {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Arial;
+	font-weight: 400;
+	line-height: 71px;
+	color:  #445162;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: white;
+}
+.standart a,
+.premium a,
+.lux a {
+	display: block;
+	width: 260px;
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 19px 20px 20px 20px;
+	text-align: center;
+	line-height: 40px;
+	color:  #445162;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.contacts {
+	float: left;
+	width: 100%;
+	background-color: rgb(68, 81, 97);
+	color: white;
+}
+
+.forma	{
+	width: 500px;
+}
+.contacts h3 {
+	text-align: center;
+	display: block;
+	margin-top: 52px;
+}
+.contacts form {
+	display: block;
+	float: left;
+}
+.contacts_email,
+.contacts_name {
+	margin-left: 247px;
+	width: 500px;
+	border-radius: 5px;
+	margin-top: 21px;
+}
+.contacts_name::placeholder,
+.contacts_email::placeholder {
+	font-family: Arial;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;			
+}
+.contacts textarea {
+	width: 500px;
+	height: 170px;
+	display: block;
+	border-radius: 5px;
+	margin-top: 21px;
+	margin-left: 247px;
+	padding-right: 0;
+}
+.contacts textarea::placeholder {
+	font-family: Arial;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.contacts_buton {
+	margin-left: 429px;
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 21px;
+	font-family: Arial;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.contacts_social {
+	display: table;
+	border: 1px solid black;
+	width: 240px;
+	
+	margin-left: 45px;
+	margin-top: 20px;
+}
+.contacts_social img {
+	display: block;
+	float: left;
+}
+.contacts_social_note {
+	font-family: Arial;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	display: inline-block;
+}
+
+
+
